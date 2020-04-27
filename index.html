@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first form</title>
+</head>
+<body>
+  <form action="success.html" method="GET">
+    <fieldset>
+      <legend>Registration form</legend>
+      <p>Who are you?</p>
+
+      <label for="email-id">Email:</label>
+      <input type="email" id="email-id" name="email" placeholder="Input your email" required>
+      <br>
+      <br>
+
+      <label for="pasword-id">Password:</label>
+      <input type="pasword" id="pasword-id" name="pasword" placeholder="Minimum 5 characters" minlength="5" required>
+      <br>
+      <br>
+
+      <label for="fname-id">First Name:</label>
+      <input type="fname" id="fname-id" name="fname" placeholder="Input you first name">
+      <br>
+      <br>
+
+      <label for="lname-id">Last Name:</label>
+      <input type="lname" id="fname-id" name="fname" placeholder="Input you last name">
+      <br>
+      <br>
+
+      <label for="age-id">Age:</label>
+      <input type="age" id="age-id" name="age"  placeholder="What's your age?">
+      <br>
+      <br>
+
+      <p2>Where are you from?</p2>
+      <br>
+      <br>
+
+      
+      <select  id="country-id" name="country">
+        <option value="ukraine">Ukraine</option>
+        <option value="england">England</option>
+        <option value="United States of America">United States of America</option>
+        <option value="Austria">Austria</option>
+        <option value="France">France</option>
+      </select>
+      <br>
+      <br>
+
+      <p3>What's you gender?</p3>
+      <br>
+      <br>
+      
+      <input type="radio" id="male-id" name="gender" value="male">
+      <label for="male-id">Male</label><br>
+      <input type="radio" id="female-id" name="gender" value="femal">
+      <label for="female-id">Female</label><br>
+      <input type="radio" id="other-id" name="gender" value="other">
+      <label for="other-id">Other</label>
+      <br>
+      <br>
+
+      <p4>When where you born?</p4>
+      <br>
+      <br>
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" >
+      <br>
+      <br>
+
+       <input type="checkbox" id="policy-id" name="policy" value="policy">
+       <label for="policy-id">Do you agree to our privacy policy?</label>
+       <br>
+       <br>
+
+       <input type="submit" value="Submit">
+
+
+      
+    </fieldset>
+  </form>
+</body>
+</html>
